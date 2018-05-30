@@ -1,0 +1,48 @@
+body{  
+
+text-align: center;
+
+}
+
+.content{  
+margin-left:auto;  
+margin-right:auto; 
+margin-top:95PX; 
+padding-top:150px;
+width: 700px;
+height:280px;
+background-image: url(../imgs/back.jpg);
+ background-size:cover; 
+}
+#headimg{
+	width:700px;
+	height:120px;
+}
+.head{
+	height:30px;
+	margin-top:20px;
+	width:100%;
+}
+.myButton{
+	padding-left:50px;
+	
+}
+a{
+	text-decoration: none;
+}
+/* buttonÕ‚π€ */
+.signup-button {
+    width: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid  #cccbcb;
+    border-radius: 7px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background: #0dbfdd;
+    cursor: pointer;
+}
+#fhdl{
+	width:100px;
+}

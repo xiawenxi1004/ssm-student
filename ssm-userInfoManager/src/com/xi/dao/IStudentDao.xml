@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="com.xi.dao.IStudentDao">
+ 	<insert id="insertStudent">
+ 		insert into student(name,age) values(#{name},#{age})
+ 	</insert>
+	<!-- 显示全部学生 -->
+<select id="selectAllStudents" resultType="Student">
+ 		select * from student
+ 	</select>
+ 	
+ 	<!-- 分页显示全部学生 上个查询的升级版 -->
+ 	<select id="list" resultType="Student">
+ 		select * from student  ORDER BY id desc limit #{param1}, #{param2}
+ 	</select>
+ 	
+ 	<!-- 通过ID查询对应学生 -->
+ 	<select id="selectStuById" resultType="Student">
+ 		select * from student where id=#{id}
+ 	</select>
+ 	<!-- 通过ID删除学生 -->
+ 	<delete id="deleteStuById">
+ 		delete from student where id=#{xxx}
+ 	</delete>
+ 	
+ 	<update id="updateStudent">
+ 		update student set name=#{name} ,age=#{age} where id=#{id}
+ 	</update>
+ 	
+ 	<select id="getTotal" resultType="int">
+ 		SELECT COUNT(*) FROM student
+ 	</select>
+ </mapper>

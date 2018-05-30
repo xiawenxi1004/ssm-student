@@ -1,0 +1,88 @@
+body{  
+
+text-align: center;
+
+}
+
+.content{  
+margin-left:auto;  
+margin-right:auto; 
+margin-top:95PX; 
+padding-top:150px;
+width: 700px;
+height:280px;
+background-image: url(../imgs/back.jpg);
+ background-size:cover; 
+}
+#headimg{
+	width:700px;
+	height:120px;
+}
+.head{
+	height:30px;
+	margin-top:20px;
+	width:100%;
+}
+.myButton{
+	padding-left:50px;
+	
+}
+a{
+	text-decoration: none;
+}
+a:link {
+	color:red;
+}
+/* button外观 */
+.signup-button {
+    width: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid  #cccbcb;
+    border-radius: 7px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background: #0dbfdd;
+    cursor: pointer;
+}
+#fhdl{
+	width:100px;
+}
+/* 学生信息表格 */
+.content .stuTable{
+	margin:-100px  auto;
+	
+}
+table.nicaTable{
+	width:30%;  
+     border-collapse:collapse;  
+     font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;  
+     margin:auto;
+}
+table.niceTable td,table.niceTable th  
+    {  
+     padding:3px 7px 2px 7px;  
+     border:1px solid #98bf21;  
+    }  
+    table.niceTable th  
+    {  
+     color:white;  
+     background-color:#A7C942;  
+    }  
+    
+    div.pageDIV {
+    text-align: center;
+    height:100px;
+   /*  background-color:green; */
+    margin:120px 280px;
+    width:200px;
+ 
+}
+ul li{  
+list-style-type:none;  
+}  
+div.pageDIV ul li{
+	float:left;
+	padding-right:10px;
+}
